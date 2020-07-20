@@ -8,6 +8,8 @@ public class LevelComplete : MonoBehaviour
 {
     public Text wavesSurvivedNumber;
     public Text enemiesKilledNumber;
+    public SceneFader sceneFader;
+    public string menuSceneName = "MainMenu";
 
     void OnEnable()
     {
@@ -15,13 +17,13 @@ public class LevelComplete : MonoBehaviour
         enemiesKilledNumber.text = PlayerStats.enemiesKilled.ToString();
     }
 
-    public void NextLevel()
+    public void Quit()
     {
-        Debug.Log("GO TO NEXT LEVEL!");
+        Application.Quit();
     }
 
     public void Menu()
     {
-        Debug.Log("GO TO MENU!");
+        sceneFader.FadeTo(menuSceneName); ;
     }
 }

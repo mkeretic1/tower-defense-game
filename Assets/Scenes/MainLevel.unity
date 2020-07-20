@@ -876,6 +876,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wavesSurvivedNumber: {fileID: 1748580375}
   enemiesKilledNumber: {fileID: 559746493}
+  sceneFader: {fileID: 1291990170}
+  menuSceneName: MainMenu
 --- !u!95 &170304288
 Animator:
   serializedVersion: 3
@@ -1380,7 +1382,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1361651956}
-        m_MethodName: Menu
+        m_MethodName: Quit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -15600,7 +15602,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: DALJE
+  m_Text: MENI
 --- !u!222 &1140846522
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16670,6 +16672,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1280499105}
   m_CullTransparentMesh: 0
+--- !u!114 &1291990170 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9218053868767328718, guid: 697f8b52e620b8c418194236bf266d67,
+    type: 3}
+  m_PrefabInstance: {fileID: 9218053869710253013}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e470d36ca0b2fa44baa0b69198ca301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1295963935
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17255,6 +17269,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wavesSurvivedNumber: {fileID: 408572742}
   enemiesKilledNumber: {fileID: 603655249}
+  sceneFader: {fileID: 1291990170}
+  menuSceneName: MainMenu
 --- !u!95 &1361651957
 Animator:
   serializedVersion: 3
@@ -25076,7 +25092,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startMoney: 9999
-  startLives: 10
+  startLives: 1
 --- !u!114 &1808850539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30272,7 +30288,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1361651956}
-        m_MethodName: NextLevel
+        m_MethodName: Menu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -30470,7 +30486,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: MENI
+  m_Text: "IZA\u0110I"
 --- !u!222 &1946190488
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -59458,3 +59474,72 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76832c4ef42580c40a3f92d29d93ea44, type: 3}
+--- !u!1001 &9218053869710253013
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 9218053868767328713, guid: 697f8b52e620b8c418194236bf266d67,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 290.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9218053868767328713, guid: 697f8b52e620b8c418194236bf266d67,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 302
+      objectReference: {fileID: 0}
+    - target: {fileID: 9218053868767328713, guid: 697f8b52e620b8c418194236bf266d67,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9218053868767328713, guid: 697f8b52e620b8c418194236bf266d67,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9218053868767328713, guid: 697f8b52e620b8c418194236bf266d67,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9218053868767328713, guid: 697f8b52e620b8c418194236bf266d67,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9218053868767328713, guid: 697f8b52e620b8c418194236bf266d67,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9218053868767328713, guid: 697f8b52e620b8c418194236bf266d67,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 9218053868767328713, guid: 697f8b52e620b8c418194236bf266d67,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9218053868767328713, guid: 697f8b52e620b8c418194236bf266d67,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9218053868767328713, guid: 697f8b52e620b8c418194236bf266d67,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9218053868767328719, guid: 697f8b52e620b8c418194236bf266d67,
+        type: 3}
+      propertyPath: m_Name
+      value: SceneFader
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 697f8b52e620b8c418194236bf266d67, type: 3}
