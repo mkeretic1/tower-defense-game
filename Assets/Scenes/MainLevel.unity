@@ -6553,8 +6553,8 @@ MonoBehaviour:
   spellEffect: {fileID: 6442433184541620786, guid: 9cb00f7b87f6f984b9b927696848f528,
     type: 3}
   spellName: "Elektri\u010Dni val"
-  spellCost: 1000
-  spellDamage: 500
+  spellCost: 200
+  spellDamage: 400
   spellDescription: "O\u0161te\u0107uje svakog \u017Eivog neprijatelja"
   turretInfoUI: {fileID: 8659458087661038158}
   positionOffset: 180
@@ -25110,7 +25110,7 @@ MonoBehaviour:
       timeBetweenEnemies: 1
     - enemyPrefab: {fileID: 3054452195906518111, guid: ea523868966502d4ba6613a49b8c6946,
         type: 3}
-      count: 25
+      count: 26
       timeBetweenEnemies: 1
     - enemyPrefab: {fileID: 1277626559187091798, guid: 83f0317f90664764aa117a7729016186,
         type: 3}
@@ -25171,10 +25171,10 @@ MonoBehaviour:
       count: 2
       timeBetweenEnemies: 5
   - waveGroup:
-    - enemyPrefab: {fileID: 3054452195906518111, guid: ea523868966502d4ba6613a49b8c6946,
+    - enemyPrefab: {fileID: 2089395719651613666, guid: bdb5aaa61b326ce42898b2bffa9735c4,
         type: 3}
       count: 1
-      timeBetweenEnemies: 1
+      timeBetweenEnemies: 3
   spawnPoint: {fileID: 4855659495353260}
   waveCounterText: {fileID: 122754517}
   enemiesAliveText: {fileID: 1057856985}
