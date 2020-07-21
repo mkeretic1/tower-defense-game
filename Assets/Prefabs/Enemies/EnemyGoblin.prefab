@@ -960,7 +960,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startSpeed: 2
   speed: 4
-  startHealth: 200
+  startHealth: 350
   value: 20
   deathEffect: {fileID: 7451588518758038824, guid: f9602d30bc815c54e9005ce2ddb5c5f5,
     type: 3}

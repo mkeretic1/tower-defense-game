@@ -1357,7 +1357,7 @@ GameObject:
   - component: {fileID: 2909992800703897833}
   - component: {fileID: 1287974623576317302}
   m_Layer: 0
-  m_Name: Troll
+  m_Name: EnemyTrollBoss
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1426,8 +1426,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startSpeed: 1
   speed: 0
-  startHealth: 10000
-  value: 999
+  startHealth: 25000
+  value: 400
   deathEffect: {fileID: 7451588518758038824, guid: f9602d30bc815c54e9005ce2ddb5c5f5,
     type: 3}
   healthBar: {fileID: 7184786396157430677}

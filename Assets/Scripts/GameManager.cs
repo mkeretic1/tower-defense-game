@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
     public GameObject gameOverUI;
     public GameObject castleExplodeEffect;
     public GameObject levelCompleteUI;
+    public GameObject levelCompleteEffect;
 
 
     public static bool gameOver;
@@ -62,5 +63,6 @@ public class GameManager : MonoBehaviour
     {
         gameOver = true;
         levelCompleteUI.SetActive(true);
+        GameObject effect = (GameObject)Instantiate(levelCompleteEffect);
     }
 }
