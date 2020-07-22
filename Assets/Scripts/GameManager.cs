@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour
     public GameObject castleExplodeEffect;
     public GameObject levelCompleteUI;
     public GameObject levelCompleteEffect;
+    public GameObject levelStartingTitle;
+    public GameObject escMenu;
 
 
     public static bool gameOver;
@@ -15,6 +17,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         gameOver = false;
+        Destroy(levelStartingTitle, 5f);
     }
 
     void Update()
@@ -32,6 +35,17 @@ public class GameManager : MonoBehaviour
         if (WaveSpawner.levelComplete)
         {
             LevelComplete();
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (escMenu.activeSelf)
+            {
+                escMenu.SetActive(false);
+            }
+            else{
+                escMenu.SetActive(true);
+            }
         }
     }
 
