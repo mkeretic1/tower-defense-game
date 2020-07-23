@@ -65,7 +65,15 @@ public class EnemyMovement : MonoBehaviour
 
     void CastleReached()
     {
-        PlayerStats.lives--;
+        if(enemy.startHealth >= 200000)
+        {
+            PlayerStats.lives = 0;
+        }
+        else
+        {
+            PlayerStats.lives--;
+        }
+        
         WaveSpawner.enemiesAlive--;
         Destroy(gameObject);
     }
