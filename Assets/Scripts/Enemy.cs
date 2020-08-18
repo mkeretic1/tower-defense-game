@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour
@@ -57,7 +58,9 @@ public class Enemy : MonoBehaviour
         speed = startSpeed * (1f - slowPercentage);
         bodyColor.ChangeBodyColor();
         slowTimer = 0.5f;
+
     }
+
 
     public void ReturnStartSpeed()
     {

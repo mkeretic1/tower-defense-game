@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine;
@@ -11,12 +10,7 @@ public class SceneFader : MonoBehaviour
     void Start()
     {
         StartCoroutine(FadeIn());
-    }
-
-    public void FadeTo(string scene)
-    {
-        StartCoroutine(FadeOut(scene));
-    }
+    }  
 
     IEnumerator FadeIn()
     {
@@ -28,6 +22,11 @@ public class SceneFader : MonoBehaviour
             img.color = new Color(0f, 0f, 0f, time);
             yield return 0; // wait a frame then continue
         }
+    }
+
+    public void FadeTo(string scene)
+    {
+        StartCoroutine(FadeOut(scene));
     }
 
     IEnumerator FadeOut(string scene)
