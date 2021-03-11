@@ -108,17 +108,17 @@ public class TurretSelectUI : MonoBehaviour
 
         switch (turret.gameObject.tag.ToString())
         {
-            case "Streličar":
-                abilitiesValueText.text = "Nema";
+            case "Arrow turret":
+                abilitiesValueText.text = "None";
                 break;
-            case "Bacač raketa":
+            case "Missile launcher":
                 abilitiesValueText.text = "AOE";
                 break;
-            case "Zamrzivač":
-                abilitiesValueText.text = "Usporava";
+            case "Icy turret":
+                abilitiesValueText.text = "Slows";
                 break;
-            case "Snajper":
-                abilitiesValueText.text = "Nema";
+            case "Ballista turret":
+                abilitiesValueText.text = "None";
                 break;
         }       
     }

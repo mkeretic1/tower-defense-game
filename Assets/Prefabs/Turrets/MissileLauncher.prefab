@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 4013719565567166383}
   m_Layer: 0
   m_Name: MissileLauncher
-  m_TagString: "Baca\u010D raketa"
+  m_TagString: Missile launcher
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

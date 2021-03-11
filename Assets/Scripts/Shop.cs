@@ -90,7 +90,7 @@ public class Shop : MonoBehaviour
 
     public void ShowArrowTurretInfo()
     {
-        FillTurretInfo(arrowTurret, arrowTurretButton, "Nema");
+        FillTurretInfo(arrowTurret, arrowTurretButton, "None");
     }
 
     public void ShowMissileLauncherInfo()
@@ -100,12 +100,12 @@ public class Shop : MonoBehaviour
 
     public void ShowSlowingTurretInfo()
     {
-        FillTurretInfo(slowingTurret, slowingTurretButton, "Usporava");
+        FillTurretInfo(slowingTurret, slowingTurretButton, "Slows");
     }
 
     public void ShowBallistaTurretInfo()
     {
-        FillTurretInfo(ballistaTurret, ballistaTurretButton, "Nema");
+        FillTurretInfo(ballistaTurret, ballistaTurretButton, "None");
     }
 
     public void HideTurretInfo()

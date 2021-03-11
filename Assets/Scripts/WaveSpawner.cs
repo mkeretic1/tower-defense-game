@@ -38,12 +38,12 @@ public class WaveSpawner : MonoBehaviour
         waveIndex = 0;
         levelComplete = false;
         spawnWave = false;
-        waveCounterText.text = waveCounterText.text = "Val " + (waveIndex + 1) + " / " + (waves.Length);
+        waveCounterText.text = waveCounterText.text = "Wave " + (waveIndex + 1) + " / " + (waves.Length);
     }
 
     void Update()
     {      
-        enemiesAliveText.text = "Neprijatelja: " + enemiesAlive.ToString();
+        enemiesAliveText.text = "Enemies: " + enemiesAlive.ToString();
 
         if (enemiesAlive > 0)
         {
@@ -83,7 +83,7 @@ public class WaveSpawner : MonoBehaviour
             {
                 return;
             }
-            waveCounterText.text = "Val " + (waveIndex + 1) + " / " + (waves.Length);
+            waveCounterText.text = "Wave " + (waveIndex + 1) + " / " + (waves.Length);
 
             if (!spawnWave)
             {

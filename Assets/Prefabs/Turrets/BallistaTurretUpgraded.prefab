@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 558690148016387110}
   m_Layer: 0
   m_Name: BallistaTurretUpgraded
-  m_TagString: Snajper X
+  m_TagString: Ballista turret X
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

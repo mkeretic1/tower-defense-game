@@ -481,7 +481,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NADOGRADI
+  m_Text: UPGRADE
 --- !u!222 &99746360
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -742,7 +742,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Sposobnost:'
+  m_Text: 'Ability:'
 --- !u!222 &168493232
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6621,10 +6621,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spellEffect: {fileID: 6442433184541620786, guid: 9cb00f7b87f6f984b9b927696848f528,
     type: 3}
-  spellName: "Elektri\u010Dni val"
+  spellName: Lightning shock
   spellCost: 200
   spellDamage: 400
-  spellDescription: "O\u0161te\u0107uje svakog \u017Eivog neprijatelja"
+  spellDescription: Damages every living enemy
   turretInfoUI: {fileID: 8659458087661038158}
   positionOffset: 180
   spellButton: {fileID: 1018158634}
@@ -7608,7 +7608,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Brzina paljbe:'
+  m_Text: 'Fire rate:'
 --- !u!222 &437430740
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8679,7 +8679,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Pre\u017Eivljenih valova"
+  m_Text: Waves survived
 --- !u!222 &611289434
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9125,7 +9125,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ubijenih protivnika
+  m_Text: Enemies killed
 --- !u!222 &716011797
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10042,7 +10042,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Pre\u017Eivljenih valova"
+  m_Text: Waves survived
 --- !u!222 &952046265
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16057,7 +16057,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: MENI
+  m_Text: MENU
 --- !u!222 &1140846522
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16642,7 +16642,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 49}
-  m_SizeDelta: {x: 455.3, y: 164.9}
+  m_SizeDelta: {x: 571.8, y: 164.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1226196529
 MonoBehaviour:
@@ -16662,9 +16662,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'RAZINA 1:
+  m_text: 'LEVEL 1:
 
-    PUSTINJA'
+    THE DESERT'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -16710,7 +16710,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 10
+  m_firstOverflowCharacterIndex: 9
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -16734,10 +16734,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1226196529}
-    characterCount: 18
+    characterCount: 19
     spriteCount: 0
-    spaceCount: 2
-    wordCount: 3
+    spaceCount: 3
+    wordCount: 4
     linkCount: 0
     lineCount: 2
     pageCount: 1
@@ -16924,7 +16924,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: GOTOVA IGRA
+  m_Text: GAME OVER
 --- !u!222 &1243395673
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17526,7 +17526,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Opis:'
+  m_Text: 'Description:'
 --- !u!222 &1280499108
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18250,7 +18250,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ubijenih protivnika
+  m_Text: Enemies killed
 --- !u!222 &1386139117
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18404,7 +18404,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "L = zaklju\u010Daj / otklju\u010Daj zaslon"
+  m_Text: L = lock / unlock screen
 --- !u!222 &1393632319
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18658,7 +18658,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: MENI
+  m_Text: MENU
 --- !u!222 &1419555228
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19124,7 +19124,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: PRODAJ
+  m_Text: SELL
 --- !u!222 &1487119533
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19459,7 +19459,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "NIVO ZAVR\u0160EN"
+  m_Text: LEVEL COMPLETE
 --- !u!222 &1537143689
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -25057,7 +25057,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "PRITISNITE \"RAZMAKNICU\" \n\nKAKO BI ZAPO\u010CELI VAL"
+  m_Text: "PRESS \"SPACE\" \n\nTO START THE WAVE"
 --- !u!222 &1734525492
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -26093,7 +26093,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Opseg:'
+  m_Text: 'Range:'
 --- !u!222 &1812109675
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -30868,7 +30868,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: PONOVI
+  m_Text: RETRY
 --- !u!222 &1870984799
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -31402,7 +31402,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "IZA\u0110I"
+  m_Text: QUIT
 --- !u!222 &1946190488
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -36587,7 +36587,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Snaga:'
+  m_Text: 'Damage:'
 --- !u!222 &2055577554
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -36796,7 +36796,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: MENI
+  m_text: MENU
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
@@ -59776,7 +59776,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Brzina paljbe:'
+  m_Text: 'Fire rate:'
 --- !u!1 &8659458086907536644
 GameObject:
   m_ObjectHideFlags: 0
@@ -60057,7 +60057,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Usporava
+  m_Text: Slows
 --- !u!224 &8659458087055732297
 RectTransform:
   m_ObjectHideFlags: 0
@@ -60161,7 +60161,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Opseg:'
+  m_Text: 'Range:'
 --- !u!4 &8659458087200498028
 Transform:
   m_ObjectHideFlags: 0
@@ -60501,7 +60501,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Sposobnost:'
+  m_Text: 'Ability:'
 --- !u!224 &8659458087719475859
 RectTransform:
   m_ObjectHideFlags: 0
@@ -60578,7 +60578,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Snaga:'
+  m_Text: 'Damage:'
 --- !u!224 &8659458088700906797
 RectTransform:
   m_ObjectHideFlags: 0

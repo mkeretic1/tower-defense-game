@@ -151,7 +151,7 @@ GameObject:
   - component: {fileID: 3816214448891404337}
   m_Layer: 0
   m_Name: SlowingTurretUpgraded
-  m_TagString: "Zamrziva\u010D X"
+  m_TagString: Icy turret X
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
