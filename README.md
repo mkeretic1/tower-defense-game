@@ -21,4 +21,4 @@ To run this game:
 2. extract files
 3. position into project's root -> Scenes -> run FoiTD.exe
 <br>
-OR run project in Unity
+OR run the project in Unity
