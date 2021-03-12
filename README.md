@@ -18,7 +18,7 @@ Project is created with:
 ## Setup
 To run this game:
 1. $ git clone https://github.com/mkeretic1/tower-defense-game.git
-2. extract files
-3. position into project's root -> Scenes -> run FoiTD.exe
+2. Extract files
+3. Position into project's root -> Scenes -> run FoiTD.exe
 <br>
 OR run the project in Unity
