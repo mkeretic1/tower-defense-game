@@ -1,5 +1,5 @@
 # tower-defense-game
-Computer tower defense game prototype
+Computer tower defense game
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
