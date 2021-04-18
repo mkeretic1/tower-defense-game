@@ -7,10 +7,10 @@ Computer tower defense game
 
 ## General info
 Short but challenging PC tower defense game "FoiTD" made as an undergraduate thesis.
-<br>
+
 ![Menu](https://user-images.githubusercontent.com/58340093/110797205-1e8ad200-8279-11eb-815b-5e0d8fe44c41.PNG)
 ![Game](https://user-images.githubusercontent.com/58340093/110797200-1cc10e80-8279-11eb-95ef-d0a1c28d8564.PNG)
-<br>
+
 Build towers, upgrade them and don't let enemies through. Choose between 4 different tower types, 1 spell and build your ultimate defense against foes.
 
 ## Technologies
